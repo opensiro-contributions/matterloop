@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "matterloop-taskgraph-checkpoint-recovery",
+  "original_repository": "huleidada/matterloop",
+  "legacy_sources": [
+    "https://github.com/opensiro/upstream-old/blob/5e641ec9401b40800080791b2e490491522b1734/data/assessment-candidate-batches/2026-10-22-05.json",
+    "https://github.com/opensiro/upstream-old/blob/5e641ec9401b40800080791b2e490491522b1734/pilots/matterloop/CONTRIBUTION_HANDOFF.md"
+  ],
+  "title": "Reject duplicate restored TaskGraph states",
+  "work_state": "DELIVERED",
+  "next_action": "No further work while owner_control=PAUSE; third-party publication and maintenance remain separately gated",
+  "source_revision": "a98e384fb02814de3e6ba3902cfee2c041e2d40f",
+  "native_evidence": [
+    "https://github.com/opensiro/upstream-old/blob/5e641ec9401b40800080791b2e490491522b1734/pilots/matterloop/restore-duplicate-state-guard.patch",
+    "https://github.com/opensiro/upstream-old/blob/5e641ec9401b40800080791b2e490491522b1734/pilots/matterloop/CONTRIBUTION_HANDOFF.md"
+  ],
+  "work_branches": [],
+  "external_prs": [
+    "https://github.com/huleidada/matterloop/pull/11"
+  ],
+  "last_event_id": null
+}
